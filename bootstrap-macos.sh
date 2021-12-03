@@ -76,11 +76,12 @@ then xcode-select --install
 else echo Skipping Command Line Tools for Xcode; echo
 fi
 
-# Install apps
-apps=(vim)
-cask_apps=(archiver authy balenaetcher curl discord firefox git spotify steam sublime-text transmission vim virtualbox visual-studio-code vlc)
+# Lists of apps and cask apps you want to install
+# If you are customizing this script, these are the two lines you want to edit
+apps=(curl git vim)
+cask_apps=(archiver authy balenaetcher discord firefox spotify steam sublime-text transmission virtualbox visual-studio-code vlc)
 
-# All apps
+# Prompts to install all apps or apps individually
 if confirm "Do you want to install ALL of the following apps: ${apps[*]} ${cask_apps[*]}?"
 then
   # Install all apps

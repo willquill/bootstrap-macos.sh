@@ -2,18 +2,18 @@
 
 Bootstrap a macOS system
 
-# Find brew packages
+# How To Use This
 
-Check this page out: [https://formulae.brew.sh/formula/](https://formulae.brew.sh/formula/)
+First, clone the repo.
 
-Clone this repo and update the app lists in the shell script if you want to install something else.
+Then modify the `apps` and `cask_apps` lists in `bootstrap-macos.sh` to specify the exact apps you need.
 
-# Run
+You can use this page as a reference to create your custom lists: [https://formulae.brew.sh/formula/](https://formulae.brew.sh/formula/)
 
-Make it executable
+After you customize the apps, make the script executable
 
 `chmod +x bootstrap-macos.sh`
 
-Run it
+Run the script to install your apps with prompts
 
 `./bootstrap-macos.sh`
