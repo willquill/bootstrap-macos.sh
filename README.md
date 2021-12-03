@@ -10,10 +10,17 @@ Then modify the `apps` and `cask_apps` lists in `bootstrap-macos.sh` to specify 
 
 You can use this page as a reference to create your custom lists: [https://formulae.brew.sh/formula/](https://formulae.brew.sh/formula/)
 
-After you customize the apps, make the script executable
+After you customize the apps, make the script executable.
 
 `chmod +x bootstrap-macos.sh`
 
-Run the script to install your apps with prompts
+Run the script to install your apps with prompts.
 
 `./bootstrap-macos.sh`
+
+# Upgrading these apps
+
+The following line will upgrade the apps that need to be upgraded.
+
+`brew update && brew outdated && brew upgrade`
+
