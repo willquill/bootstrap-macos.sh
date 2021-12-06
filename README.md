@@ -1,6 +1,6 @@
 # bootstrap-macos
 
-Bootstrap a macOS system.
+Bootstrap a macOS system
 
 # How to use this
 
@@ -103,7 +103,7 @@ These apps and extensions are not part of the script, but they are recommended:
 - [Honey for Safari](https://apps.apple.com/us/app/honey-for-safari/id1472777122)
     - Find discounts when shopping
 - [Amphetamine](https://apps.apple.com/us/app/amphetamine/id937984704)
-    - Keeps laptop awak
+    - Keeps laptop awake
 - [Pocket](https://apps.apple.com/us/app/pocket/id568494494)
     - Save articles for later
 - [Unsplash Wallpapers](https://apps.apple.com/us/app/unsplash-wallpapers/id1284863847)
