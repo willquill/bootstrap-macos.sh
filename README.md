@@ -16,6 +16,8 @@ After you customize the apps, make the script executable.
 
 Run the script to install your apps with prompts.
 
+*Note: One of the prompts is is for Command Line Tools for Xcode, but if you used git to clone this repo, then you already have it installed, so skip it*
+
 `./bootstrap-macos.sh`
 
 # Upgrading these apps
@@ -35,10 +37,6 @@ Standalone YouTube app that blocks ads
 Create bootable USB drives
 
 `brew install --cask balenaetcher`
-
-Bitwarden, my preferred password manager
-
-`brew install --cask bitwarden`
 
 Handbrake for video encoding
 
@@ -68,21 +66,9 @@ Tor Browser for more anonymous browsing
 
 `brew install --cask tor-browser`
 
-Authy, my preferred 2FA app
-
-`brew install --cask authy`
-
 Pocket Casts, my preferred podcast app
 
 `brew install --cask pocket-casts`
-
-Wireshark for TCP/IP network analysis
-
-`brew install --cask wireshark`
-
-Virtualbox to use virtual machines (useful when using minikube)
-
-`brew install --cask virtualbox`
 
 Transmission for torrents
 
@@ -96,8 +82,6 @@ Raycast as Spotlight on steroids
 
 These apps and extensions are not part of the script, but they are recommended:
 
-- [Ninja Cookie](https://ninja-cookie.com)
-    - Automatically say no to cookies
 - [Dropover](https://dropoverapp.com)
     - Helps drag 'n drop in Finder
 - [Honey for Safari](https://apps.apple.com/us/app/honey-for-safari/id1472777122)
@@ -112,7 +96,6 @@ These apps and extensions are not part of the script, but they are recommended:
     - Window management
 - [AdGuard](https://adguard.com/en/adguard-mac/overview.html) or [Wipr](https://apps.apple.com/us/app/wipr/id1320666476)
     - Block ads - comparison of options [here](https://www.reddit.com/r/Safari/comments/oqsbxo/with_ublock_origin_not_being_available_for_safari/)
-
 
 # Other tweaks
 
@@ -135,7 +118,3 @@ defaults delete com.apple.Dock autohide-delay; killall Dock
 ### Neat ZSH profile
 
 Check out `prezto` [here](https://github.com/sorin-ionescu/prezto) for a nice all in one ZSH customized profile.
-
-
-
-
