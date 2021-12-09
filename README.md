@@ -42,10 +42,6 @@ Handbrake for video encoding
 
 `brew install --cask handbrake`
 
-Grammarly helps fix mistakes whiel you write
-
-`brew install --cask grammarly-desktop`
-
 Microsoft Remote Desktop, my preferred RDP client
 
 `brew install --cask microsoft-remote-desktop`
