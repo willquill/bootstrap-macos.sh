@@ -80,7 +80,7 @@ fi
 # Lists of apps and cask apps you want to install
 # If you are customizing this script, these are the two lines you want to edit
 apps=(curl git vim)
-cask_apps=(archiver coconutbattery discord firefox hiddenbar omnidisksweeper postman spotify steam sublime-text visual-studio-code vlc zoom clicker-for-youtube balenaetcher handbrake microsoft-remote-desktop plex telegram-desktop signal tor-browser pocket-casts raycast transmission)
+cask_apps=(appcleaner archiver cheatsheet discord firefox hiddenbar omnidisksweeper postman spotify steam sublime-text visual-studio-code vlc zoom clicker-for-youtube balenaetcher handbrake microsoft-remote-desktop plex telegram-desktop signal tor-browser pocket-casts raycast transmission)
 
 # Prompts to install all apps or apps individually
 if confirm "Do you want to install ALL of the following apps: ${apps[*]} ${cask_apps[*]}?"
